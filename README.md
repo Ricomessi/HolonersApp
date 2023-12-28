@@ -18,3 +18,7 @@ holoners is an Android based aplication with a List app concept.
 
  ### Music menu
 ![Music](https://lh3.googleusercontent.com/pw/ABLVV85MFYHL3z8x9yk2wzQcnLK0DMstZ4-z5u5Q-p3J_mvIMexM-nElgRend6rM5id1vGA4mX8XgykriQAHrEuCVfT9HM5iFquoWSWOQZssbcF_cWsNYeUnme2Y3l-6bvA_7mfDfWINLc0whzwIi-ATOS5B=w463-h695-s-no?authuser=0)
+
+## Author
+@Rico
+@Ifarra
