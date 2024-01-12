@@ -38,12 +38,12 @@ public class ActivityLogin extends AppCompatActivity {
 
         LinearLayout myLinearLayout = findViewById(R.id.myLinearLayout);
 
-        // Mulai animasi
+        // Mulai animasi masuk
         Animation slideInAnimation = AnimationUtils.loadAnimation(this, R.anim.slidein);
         myLinearLayout.startAnimation(slideInAnimation);
 
 
-        // taking instance of FirebaseAuth
+        // buat object
         mAuth = FirebaseAuth.getInstance();
 
         // initialising all views through id defined above
@@ -53,7 +53,7 @@ public class ActivityLogin extends AppCompatActivity {
         registerBtn = findViewById(R.id.register);
         progressbar = findViewById(R.id.progressBar);
 
-        // Set on Click Listener on Login button
+        // Buat listener login btn
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
@@ -62,7 +62,7 @@ public class ActivityLogin extends AppCompatActivity {
             }
         });
 
-        // Set on Click Listener on Register button
+        // Buat listener login & register
         registerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
@@ -76,7 +76,7 @@ public class ActivityLogin extends AppCompatActivity {
 
     private void loginUserAccount()
     {
-        // show the visibility of progress bar to show loading
+        // Progress bar loading
         progressbar.setVisibility(View.VISIBLE);
 
         // Take the value of two edit texts in Strings
